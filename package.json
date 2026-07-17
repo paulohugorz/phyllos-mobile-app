@@ -8,6 +8,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build:preview:android": "eas build --platform android --profile preview",
+    "build:stores": "eas build --platform all --profile production",
+    "submit:android": "eas submit --platform android --profile production",
+    "submit:ios": "eas submit --platform ios --profile production",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

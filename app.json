@@ -3,10 +3,27 @@
     "name": "PHYLLOS no Bolso",
     "slug": "phyllos-no-bolso",
     "version": "0.1.0",
+    "icon": "./assets/icon.png",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "ios": { "supportsTablet": true, "bundleIdentifier": "eco.phyllos.bolso" },
-    "android": { "package": "eco.phyllos.bolso", "adaptiveIcon": { "backgroundColor": "#173D31" } },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F2E8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "eco.phyllos.bolso",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "eco.phyllos.bolso",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#173D31"
+      }
+    },
     "web": { "bundler": "metro" }
   }
 }
