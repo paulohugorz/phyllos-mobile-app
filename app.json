@@ -24,6 +24,13 @@
         "backgroundColor": "#173D31"
       }
     },
-    "web": { "bundler": "metro" }
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f62a922-1559-40b7-bc09-fa61e0e352bf"
+      }
+    }
   }
 }
