@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "PHYLLOS no Bolso",
+    "slug": "phyllos-no-bolso",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "eco.phyllos.bolso" },
+    "android": { "package": "eco.phyllos.bolso", "adaptiveIcon": { "backgroundColor": "#173D31" } },
+    "web": { "bundler": "metro" }
+  }
+}
